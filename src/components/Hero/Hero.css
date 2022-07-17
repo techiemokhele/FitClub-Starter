@@ -97,7 +97,8 @@
 .right-h {
   flex: 1;
   position: relative;
-  background-color: var(--red);
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 .right-h > .btn {
   position: absolute;

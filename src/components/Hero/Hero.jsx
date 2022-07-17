@@ -2,7 +2,7 @@ import React from "react";
 
 //import customs
 import "./Hero.css";
-import Header from "../Header/Header";
+import { Header } from "../";
 
 //import images
 import Hero_image from "../../assets/hero_image.png";
