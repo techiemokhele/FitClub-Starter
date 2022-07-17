@@ -1,4 +1,4 @@
-header {
+.header {
   display: flex;
   justify-content: space-between;
 }
@@ -12,10 +12,8 @@ header {
   gap: 2rem;
   color: #fff;
 }
-.header-menu > li {
-  cursor: pointer;
-}
+
 .header-menu > li:hover {
-  color: var(--orange);
+  color: var(--red);
   cursor: pointer;
 }
