@@ -6,6 +6,7 @@ import {
   Plans,
   Testimonials,
   Join,
+  Footer,
 } from "./components";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Plans />
       <Testimonials />
       <Join />
+      <Footer />
     </div>
   );
 }

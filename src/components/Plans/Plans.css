@@ -13,6 +13,24 @@
   justify-content: center;
   gap: 3rem;
 }
+.plans > :nth-child(2) > svg {
+  fill: #fff;
+}
+.plans > :nth-child(2) > button {
+  color: red;
+}
+.plans-blur-1 {
+  height: 23rem;
+  width: 32rem;
+  top: 6rem;
+  left: 0rem;
+}
+.plans-blur-2 {
+  height: 23rem;
+  width: 32rem;
+  top: 10rem;
+  right: 0rem;
+}
 
 .plan {
   display: flex;
@@ -30,12 +48,6 @@
 .plan > :nth-child(2) {
   font-size: 1rem;
   font-weight: bold;
-}
-.plans > :nth-child(2) > svg {
-  fill: #fff;
-}
-.plans > :nth-child(2) > button {
-  color: red;
 }
 .plan > :nth-child(3) {
   font-size: 3rem;
