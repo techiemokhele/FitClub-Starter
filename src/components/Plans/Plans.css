@@ -12,6 +12,8 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  margin-left: 18px;
+  margin-right: 18px;
 }
 .plans > :nth-child(2) > svg {
   fill: #fff;
@@ -74,4 +76,14 @@
 }
 .feature > img {
   width: 1rem;
+}
+
+/*responsive design*/
+@media screen and (max-width: 768px) {
+  .plans {
+    flex-direction: column;
+  }
+  .plans > :nth-child(2) {
+    transform: none;
+  }
 }

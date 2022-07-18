@@ -26,14 +26,14 @@ function Reasons() {
       <div className="right-r">
         <span>Some reasons</span>
         <div>
-          <span className="stroke-text">why</span>
+          <span className="stroke-text">why to </span>
           <span>choose us?</span>
         </div>
 
         <div className="details-r">
           <div>
             <img src={tick} alt="icon-tick" />
-            <span>over 31+ expert coaches</span>
+            <span>over +120 expert coaches</span>
           </div>
           <div>
             <img src={tick} alt="icon-tick" />
