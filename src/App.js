@@ -1,5 +1,12 @@
 import "./App.css";
-import { Hero, Programs, Reasons, Plans, Testimonials } from "./components";
+import {
+  Hero,
+  Programs,
+  Reasons,
+  Plans,
+  Testimonials,
+  Join,
+} from "./components";
 
 function App() {
   return (
@@ -9,6 +16,7 @@ function App() {
       <Reasons />
       <Plans />
       <Testimonials />
+      <Join />
     </div>
   );
 }
